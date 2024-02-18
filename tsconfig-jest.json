@@ -1,0 +1,23 @@
+{
+    "extends": "./tsconfig-base.json",
+    "compilerOptions": {
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "lib",
+        "declaration": true,
+        "esModuleInterop": true,
+        "inlineSourceMap": false,
+        "lib": ["esnext"],
+        "listEmittedFiles": false,
+        "listFiles": false,
+        "moduleResolution": "node",
+        "noFallthroughCasesInSwitch": true,
+        "pretty": true,
+        "resolveJsonModule": true,
+        "rootDir": "lib",
+        "skipLibCheck": false,
+        "strict": false,
+        "traceResolution": false,
+        "types": ["node", "jest"]
+    }
+}

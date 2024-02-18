@@ -1,6 +1,8 @@
 {
-  "compilerOptions": {
-    "target": "es6",
-    "moduleResolution": "node"
-  }
+   "extends": "./tsconfig-base.json",
+   "compilerOptions": {
+        "target": "es6",
+        "outDir": "dist/mjs",
+        "module": "es6"
+    }
 }
