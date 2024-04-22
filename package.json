@@ -1,6 +1,6 @@
 {
     "name": "@kreablo/k-lexer",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Lexer to produce token stream for typescript-parsec.",
     "main": "dist/cjs/index.js",
     "module": "dist/mjs/index.js",
